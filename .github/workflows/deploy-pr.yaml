@@ -4,7 +4,7 @@ on:
   pull_request:
 
 env:
-  REGISTRY: ghir.io
+  REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
