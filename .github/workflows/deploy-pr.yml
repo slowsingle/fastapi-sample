@@ -48,7 +48,7 @@ jobs:
       - name: Checkout slowsingle/kubernetes-basics
         uses: actions/checkout@v2
         with:
-          repositry: slowsingle/kubernetes-basics
+          repository: slowsingle/kubernetes-basics
           ref: v2.0-rc
       - name: Update manifest file
         env:
